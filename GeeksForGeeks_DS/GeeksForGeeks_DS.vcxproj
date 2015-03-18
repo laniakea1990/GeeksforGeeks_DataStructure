@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="first_list.c" />
+    <ClCompile Include="insert_list.c" />
+    <ClCompile Include="middle_node_find.c" />
+    <ClCompile Include="only_ptr_delete.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -78,9 +84,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="first_list.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,7 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="middle_node_find.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="first_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="insert_list.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="only_ptr_delete.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
