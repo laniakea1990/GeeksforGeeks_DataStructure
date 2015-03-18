@@ -10,15 +10,10 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="first_list.c" />
-    <ClCompile Include="insert_list.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}</ProjectGuid>
+    <ProjectGuid>{3DB51D4C-A294-4E90-BE0F-5B047A20895F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>GeeksForGeeks_DS</RootNamespace>
-    <ProjectName>GeeksForGeeks_DS_List</ProjectName>
+    <RootNamespace>middle_node_find</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -82,6 +77,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GeeksForGeeks_DS\middle_node_find.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

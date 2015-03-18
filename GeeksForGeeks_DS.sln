@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeeksForGeeks_DS", "GeeksForGeeks_DS\GeeksForGeeks_DS.vcxproj", "{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeeksForGeeks_DS_List", "GeeksForGeeks_DS\GeeksForGeeks_DS.vcxproj", "{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "middle_node_find", "middle_node_find\middle_node_find.vcxproj", "{3DB51D4C-A294-4E90-BE0F-5B047A20895F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "give_only_one_pointer_delete", "give_only_one_pointer_delete\give_only_one_pointer_delete.vcxproj", "{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}.Debug|Win32.Build.0 = Debug|Win32
 		{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}.Release|Win32.ActiveCfg = Release|Win32
 		{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}.Release|Win32.Build.0 = Release|Win32
+		{3DB51D4C-A294-4E90-BE0F-5B047A20895F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DB51D4C-A294-4E90-BE0F-5B047A20895F}.Debug|Win32.Build.0 = Debug|Win32
+		{3DB51D4C-A294-4E90-BE0F-5B047A20895F}.Release|Win32.ActiveCfg = Release|Win32
+		{3DB51D4C-A294-4E90-BE0F-5B047A20895F}.Release|Win32.Build.0 = Release|Win32
+		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Debug|Win32.Build.0 = Debug|Win32
+		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Release|Win32.ActiveCfg = Release|Win32
+		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

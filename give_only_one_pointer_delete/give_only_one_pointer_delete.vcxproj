@@ -10,15 +10,10 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="first_list.c" />
-    <ClCompile Include="insert_list.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}</ProjectGuid>
+    <ProjectGuid>{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>GeeksForGeeks_DS</RootNamespace>
-    <ProjectName>GeeksForGeeks_DS_List</ProjectName>
+    <RootNamespace>give_only_one_pointer_delete</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -82,6 +77,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GeeksForGeeks_DS\only_ptr_delete.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

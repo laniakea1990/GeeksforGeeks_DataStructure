@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="insert_list.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="first_list.c">
+    <ClCompile Include="..\GeeksForGeeks_DS\middle_node_find.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
