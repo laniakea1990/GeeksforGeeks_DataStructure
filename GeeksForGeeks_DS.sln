@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "middle_node_find", "middle_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "give_only_one_pointer_delete", "give_only_one_pointer_delete\give_only_one_pointer_delete.vcxproj", "{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_Array_Implementation", "Stack_Array_Implementation\Stack_Array_Implementation.vcxproj", "{DC80CB80-3239-4DE2-859A-FAB6E38B4E66}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_List_Implementation", "Stack_List_Implementation\Stack_List_Implementation.vcxproj", "{6463B945-9F98-4EF2-A682-B2CC180A18C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +31,14 @@ Global
 		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Debug|Win32.Build.0 = Debug|Win32
 		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Release|Win32.ActiveCfg = Release|Win32
 		{E5FA16A9-DFF7-4D82-9C8A-09D3677A65EB}.Release|Win32.Build.0 = Release|Win32
+		{DC80CB80-3239-4DE2-859A-FAB6E38B4E66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC80CB80-3239-4DE2-859A-FAB6E38B4E66}.Debug|Win32.Build.0 = Debug|Win32
+		{DC80CB80-3239-4DE2-859A-FAB6E38B4E66}.Release|Win32.ActiveCfg = Release|Win32
+		{DC80CB80-3239-4DE2-859A-FAB6E38B4E66}.Release|Win32.Build.0 = Release|Win32
+		{6463B945-9F98-4EF2-A682-B2CC180A18C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6463B945-9F98-4EF2-A682-B2CC180A18C1}.Debug|Win32.Build.0 = Debug|Win32
+		{6463B945-9F98-4EF2-A682-B2CC180A18C1}.Release|Win32.ActiveCfg = Release|Win32
+		{6463B945-9F98-4EF2-A682-B2CC180A18C1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
