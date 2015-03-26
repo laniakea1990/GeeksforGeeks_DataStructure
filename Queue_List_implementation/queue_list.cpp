@@ -4,7 +4,7 @@
 struct QNode
 {
 	int data;
-	struct Node* next;
+	struct QNode* next;
 };
 
 struct Queue
@@ -36,7 +36,39 @@ void Enqueue(struct Queue* queue, int item)
 	struct QNode* temp = newNode(item);
 	if (queue->rear == NULL)
 		queue->front = queue->rear = temp;
+	queue->rear->next = temp;
+	queue->rear = temp;
 
+}
 
+struct QNode* Dequeue(struct Queue* queue)
+{
+	if (queue->front == NULL)
+		return NULL;
+	struct QNode* temp = queue->front;
+	queue->front = temp->next;
 
+	if (queue->front == NULL)
+		queue->rear = NULL;
+	return temp;
+}
+
+int main()
+{
+	struct Queue* queue = createQueue();
+
+	Enqueue(queue, 10);
+	Enqueue(queue, 20);
+	Dequeue(queue);
+	Dequeue(queue);
+	Enqueue(queue, 20);
+	Enqueue(queue, 30);
+	Enqueue(queue, 40);
+	Enqueue(queue, 50);
+
+	struct QNode* head = Dequeue(queue);
+	if (head != NULL)
+		printf("The dequeued item is %d.\n", head->data);
+	getchar();
+	return 0;
 }

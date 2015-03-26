@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeeksForGeeks_DS_List", "GeeksForGeeks_DS\GeeksForGeeks_DS.vcxproj", "{D90B2E9E-D497-4BC5-9751-1E34FABFEAE0}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue_Array_implementation", "Queue_array_implementation\Queue_array_implementation.vcxproj", "{4CF5A058-3845-45F2-A1E4-6058062D3C3C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue_List_implementation", "Queue_List_implementation\Queue_List_implementation.vcxproj", "{1CC4FC5B-9D87-4B49-BC15-E8675E54E3C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree_introduction", "BinaryTree_introduction\BinaryTree_introduction.vcxproj", "{53DCE2FA-5031-47E0-BC4C-233B7EA47A58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tree_Traversal", "Tree_Traversal\Tree_Traversal.vcxproj", "{B85A05AF-A521-4304-B04D-C2BE42971900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{1CC4FC5B-9D87-4B49-BC15-E8675E54E3C9}.Debug|Win32.Build.0 = Debug|Win32
 		{1CC4FC5B-9D87-4B49-BC15-E8675E54E3C9}.Release|Win32.ActiveCfg = Release|Win32
 		{1CC4FC5B-9D87-4B49-BC15-E8675E54E3C9}.Release|Win32.Build.0 = Release|Win32
+		{53DCE2FA-5031-47E0-BC4C-233B7EA47A58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53DCE2FA-5031-47E0-BC4C-233B7EA47A58}.Debug|Win32.Build.0 = Debug|Win32
+		{53DCE2FA-5031-47E0-BC4C-233B7EA47A58}.Release|Win32.ActiveCfg = Release|Win32
+		{53DCE2FA-5031-47E0-BC4C-233B7EA47A58}.Release|Win32.Build.0 = Release|Win32
+		{B85A05AF-A521-4304-B04D-C2BE42971900}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B85A05AF-A521-4304-B04D-C2BE42971900}.Debug|Win32.Build.0 = Debug|Win32
+		{B85A05AF-A521-4304-B04D-C2BE42971900}.Release|Win32.ActiveCfg = Release|Win32
+		{B85A05AF-A521-4304-B04D-C2BE42971900}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
