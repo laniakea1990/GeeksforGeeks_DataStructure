@@ -23,6 +23,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree_introduction", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tree_Traversal", "Tree_Traversal\Tree_Traversal.vcxproj", "{B85A05AF-A521-4304-B04D-C2BE42971900}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thread_binarytree", "Thread_binarytree\Thread_binarytree.vcxproj", "{522AF2BA-68EB-4BAC-BB63-CA6580077FFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculate_size_btree", "calculate_size_btree\calculate_size_btree.vcxproj", "{EAF5B4AA-D3AF-4A26-8594-B306267043E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "determine_tree_identical", "determine_tree_identical\determine_tree_identical.vcxproj", "{F15BD95E-1339-4955-BE34-BA9873A3CEC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -69,6 +75,18 @@ Global
 		{B85A05AF-A521-4304-B04D-C2BE42971900}.Debug|Win32.Build.0 = Debug|Win32
 		{B85A05AF-A521-4304-B04D-C2BE42971900}.Release|Win32.ActiveCfg = Release|Win32
 		{B85A05AF-A521-4304-B04D-C2BE42971900}.Release|Win32.Build.0 = Release|Win32
+		{522AF2BA-68EB-4BAC-BB63-CA6580077FFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{522AF2BA-68EB-4BAC-BB63-CA6580077FFE}.Debug|Win32.Build.0 = Debug|Win32
+		{522AF2BA-68EB-4BAC-BB63-CA6580077FFE}.Release|Win32.ActiveCfg = Release|Win32
+		{522AF2BA-68EB-4BAC-BB63-CA6580077FFE}.Release|Win32.Build.0 = Release|Win32
+		{EAF5B4AA-D3AF-4A26-8594-B306267043E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAF5B4AA-D3AF-4A26-8594-B306267043E7}.Debug|Win32.Build.0 = Debug|Win32
+		{EAF5B4AA-D3AF-4A26-8594-B306267043E7}.Release|Win32.ActiveCfg = Release|Win32
+		{EAF5B4AA-D3AF-4A26-8594-B306267043E7}.Release|Win32.Build.0 = Release|Win32
+		{F15BD95E-1339-4955-BE34-BA9873A3CEC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F15BD95E-1339-4955-BE34-BA9873A3CEC2}.Debug|Win32.Build.0 = Debug|Win32
+		{F15BD95E-1339-4955-BE34-BA9873A3CEC2}.Release|Win32.ActiveCfg = Release|Win32
+		{F15BD95E-1339-4955-BE34-BA9873A3CEC2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
